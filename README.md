@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/faxternow403-cpu/KaguraTJA/main/kaguratja-logo.png" width="360" alt="KaguraTJA Logo">
+  <img src="https://raw.githubusercontent.com/faxternow403-cpu/KaguraTJA/main/Dise%C3%B1o%20sin%20t%C3%ADtulo.png" width="360" alt="KaguraTJA Logo">
 </p>
 # KaguraTJA
 
