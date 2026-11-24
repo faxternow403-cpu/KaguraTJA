@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/faxternow403-cpu/KaguraTJA/main/Dise%C3%B1o%20sin%20t%C3%ADtulo.png" width="360" alt="KaguraTJA Logo">
+</p>
 # KaguraTJA
 
 **OpenTaiko** のベースエディションを改良した非公式の派生・改造プロジェクトです（AIの支援を活用して開発されています）。元の **OpenTaiko**（旧称 `TJAPlayer3-Develop-BSQ`）および `TJAPlayer3` コミュニティの基盤の上に構築されています。
