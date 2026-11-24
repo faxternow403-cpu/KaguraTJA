@@ -35,7 +35,8 @@
     <Content Include="README.md" CopyToOutputDirectory="PreserveNewest" />
   </ItemGroup>
   <PropertyGroup>
-    <Version>0.7.0.20</Version>
+    <AssemblyName>KaguraTJA</AssemblyName>
+    <Version>0.1.0.0</Version>
     <OutputType Condition="'$(BuildingAsLibrary)' != 'true'">WinExe</OutputType>
     <OutputType Condition="'$(BuildingAsLibrary)' == 'true'">Library</OutputType>
     <TargetFramework>net10.0</TargetFramework>

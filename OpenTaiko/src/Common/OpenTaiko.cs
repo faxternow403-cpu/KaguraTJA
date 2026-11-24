@@ -1400,7 +1400,7 @@ internal class OpenTaiko : Game {
 	// ayo komi isn't this useless code? - tfd500
 	{
 		get {
-			return "OpenTaiko";
+			return "KaguraTJA";
 		}
 	}
 	public static DateTime StartupTime {
@@ -1844,8 +1844,7 @@ internal class OpenTaiko : Game {
 		if (SoundManager.GetCurrentSoundDeviceType() != "DirectSound") {
 			delay = "(" + SoundManager.GetSoundDelay() + "ms)";
 		}
-		AssemblyName asmApp = Assembly.GetExecutingAssembly().GetName();
-		base.Text = asmApp.Name + " Ver." + VERSION + " - (" + GraphicsDeviceType_ + ") - (" + SoundManager.GetCurrentSoundDeviceType() + delay + ")";
+		base.Text = "KaguraTJA Ver.0.1.0 - (" + GraphicsDeviceType_ + ") - (" + SoundManager.GetCurrentSoundDeviceType() + delay + ")";
 	}
 
 	private void tExitProcess() {
