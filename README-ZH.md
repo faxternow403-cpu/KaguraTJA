@@ -1,7 +1,6 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/faxternow403-cpu/KaguraTJA/main/kaguratja-logo.png" width="360" alt="KaguraTJA Logo">
+  <img src="https://raw.githubusercontent.com/faxternow403-cpu/KaguraTJA/main/Dise%C3%B1o%20sin%20t%C3%ADtulo.png" width="360" alt="KaguraTJA Logo">
 </p>
-
 # KaguraTJA
 
 **KaguraTJA** 是基于 **OpenTaiko** 基础版（原 `TJAPlayer3-Develop-BSQ`，`TJAPlayer3` 的精神继承者）进行修改与改进的非官方衍生版本，并在开发过程中借助了 AI 辅助。
