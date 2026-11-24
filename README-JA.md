@@ -1,78 +1,70 @@
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/58159635/140600257-f712fc48-d09a-4a5e-a78d-e7c65ca19b80.png">
-</p>
+# KaguraTJA
 
-# OpenTaiko
+**OpenTaiko** のベースエディションを改良した非公式の派生・改造プロジェクトです（AIの支援を活用して開発されています）。元の **OpenTaiko**（旧称 `TJAPlayer3-Develop-BSQ`）および `TJAPlayer3` コミュニティの基盤の上に構築されています。
 
-旧名称 TJAPlayer3-Develop-BSQ (非公式なTJAPlayer3の継続)
-
-- Discord : https://discord.gg/aA8scTvZ6B
-- Discord (日本語) : https://discord.gg/CJ4nTkpy7t
+- ベースプロジェクト (OpenTaiko): https://github.com/0auBSQ/OpenTaiko
+- OpenTaiko Discord : https://discord.gg/aA8scTvZ6B
+- OpenTaiko Discord (日本語) : https://discord.gg/CJ4nTkpy7t
 
 ## 使用上の注意 （重要）
 
-- このゲームを使用する場合は、**全て自己責任**でお願いします。
+- 本派生ビルド（KaguraTJA）は、AIの支援を受けて改良・変更を加えた非公式の改造版です。使用および導入は**全て自己責任**でお願いします。
 
-- 著作権を反するスキンや派生ビルドのサポートは原則行いませんのでご了承ください。
+- 元の OpenTaiko 開発チームや公式サポート窓口へ、KaguraTJA 固有の不具合・改造内容・設定に関する問い合わせを行わないでください。
 
-- 質問する前に、まずは自分で調べたりしてください。
-また、[取扱説明書](https://drive.google.com/file/d/1VJoia2M_EWrf58xsATL7udIJ0ozR2YFf/view?usp=sharing)や[Wiki](https://seesaawiki.jp/opentaiko-unofficial/)もご確認ください。
+- 著作権を侵害するスキン、譜面、または無断転載・再配布に関するサポートや助言は一切行いません。
 
-- 常時60fpsを保てないPCでの動作は快適なプレイは期待できません。
+- 質問や調査の前に、まずは関連ドキュメントやソースコードをご確認ください（OpenTaiko の[取扱説明書](https://drive.google.com/file/d/1VJoia2M_EWrf58xsATL7udIJ0ozR2YFf/view?usp=sharing)や[Wiki](https://seesaawiki.jp/opentaiko-unofficial/)も参考になります）。
 
-- 上記のリリースのバージョン以外でサポートは行いませんので自己責任でお願いします。
-
-- 0.6.0以降は、OpenTaiko HubからOpenTaikoのリリースをダウンロードして管理してください。https://github.com/OpenTaiko/OpenTaiko-Hub
+- 常時60fpsを安定して維持できない環境では、快適な動作やプレイは期待できません。
 
 ### 動画、配信等でのご利用について
 
-タグ機能のあるサイトの場合、「OpenTaiko」といったタグを付けることで、誤解を防ぐとともに、関連動画として出やすくなるメリットがあるため、推奨します。
+- 動画投稿や配信を行う際は、視聴者の混乱を防ぐため、本プロジェクト名（**KaguraTJA**）や派生元である **OpenTaiko** などのタグを適切に付与することを推奨します。
 
-知的所有権侵害は支援しておりませんので、自国の著作権規則に基づいて行動してください。
-OpenTaikoチームも著作権を反するスキンの二次配布についても固く反対します。（解析、本家、など）
+- 知的財産権および各権利者の利用規約を尊重し、お住まいの国・地域の著作権法に従ってご利用ください。著作権を侵害する素材やスキンの配布・公開には賛同しません。
 
 ### 改造・再配布(二次配布)を行う場合について
 
-OpenTaikoはオープンソースソフトウェア(MIT)です。
-MITライセンスのルールのもと、改造・再配布を行うことは自由ですが、**全て自己責任**でお願いします。
-また、使用しているライブラリのライセンス上、**必ず**「Licenses」フォルダを同梱の上、改造・再配布をお願いします。
-外部スキンや、譜面パッケージを同梱する場合は、それぞれの制作者のルールや規約を守ってください。
-これらにOpenTaikoのライセンスは適用されません。
+- ベースとなる **OpenTaiko** は MIT ライセンスのオープンソースソフトウェアです。MIT ライセンスの条件に従う限り、改変や再配布は可能ですが、**全て自己責任**となります。
 
-### 目標・目標ではない物事
+- 使用されている各種ライブラリのライセンス要件に基づき、**必ず** `Licenses` フォルダを同梱した状態で配布・共有してください。
+
+- 外部スキンや譜面パック等を同梱する場合は、それぞれの制作者が定める利用規約やライセンスに従ってください。それらには OpenTaiko および KaguraTJA のライセンスは適用されません。
+
+### 目標・目標ではないこと
 
 **目標**
 
-- 様々な楽しい太鼓のプレイ手段を設けること。
+- OpenTaiko のベースエディションを土台として、描画や演出、プレイ体験、ユーザビリティ（QoL）などの改善・拡張を進めること。
 
-- より多くのスキンのカスタマイズを可能にすること、「色々な見た目のスキンを簡単に作れる」ということを可能にすること。
+- カスタマイズ性やメンテナンス性を高め、より扱いやすい構成を目指すこと。
 
-- 最適化、バグ修正、ＱＯＬ機能を改善すること。
+- 最適化や不具合の修正を進めること。
 
 **目標ではない**
 
-- 某ゲームを再現すること。
+- 特定の商用リズムゲームをそのまま再現・模倣すること。
 
 ## IssueとPull Request投稿上の注意 （重要）
 
-Issue/Pull Requestへ投稿を送ってくれてありがとうございます、大変助かります。
+KaguraTJA に関する Issue や Pull Request をお送りいただく場合は、以下の点にご協力ください。
 
-- 投稿内容は**必ず**フランス及び日本の著作権規則に従ってください。
+- 投稿内容は関連する著作権法および各国の法令・ガイドラインに従ってください。
 
-- **重要** ：Issueを提供したら、リリースバージョンと再現方法を述べてください。クラッシュの場合、OpenTaiko.logの内容をご添付ください。
+- 不具合報告（Issue）の際は、利用しているバージョン・コミット情報と再現手順をできるだけ詳しく記載してください。クラッシュが発生した場合はログファイルの内容も添付してください。
 
-- CLang言語翻訳を追加して欲しい場合は予めDiscordでご連絡ください.
+- AI支援による生成・修正コードが含まれる場合があることを踏まえ、動作確認やレビューにご協力をお願いいたします。
 
 ### 提案について
 
-特別な機能の実装が希望ならDiscordでご連絡ください.
-
-提案を気に入れば実装する事は可能です。
-
-- **重要** ： 「こういうUI・UXのパートを本家っぽく実装してください」のような提案は基本的に拒否しております。
+- 機能追加や改善案がある場合は、Issue または指定の連絡先までお寄せください。すべての提案が採用されるわけではありませんのであらかじめご了承ください。
 
 ## スペシャルサンクス
 
+KaguraTJA は **OpenTaiko** および歴代の `TJAPlayer3` / 関連プロジェクトの成果と貢献者の方々の尽力なしには成り立ちません。心より感謝申し上げます。
+
+> * [0auBSQ / OpenTaiko](https://github.com/0auBSQ/OpenTaiko)
 > * [Takkkom/Major OpenTaiko features (1080p support, AI Battle mode, 5P mode and so on)](https://github.com/Takkkom)
 > * [AkiraChnl/OpenTaiko Icon](https://github.com/AkiraChnl)(@akirach_jp)
 > * [Reichisama/OpenTaiko 0.6.0 Icon](https://twitter.com/himikoreichi135)(@himikoreichi135)
@@ -89,4 +81,4 @@ Issue/Pull Requestへ投稿を送ってくれてありがとうございます�
 > * [Akasoko/TJAPlayer3](https://github.com/Akasoko-Master/TJAPlayer3)(@AkasokoR)
 > * [FROM/DTXMaina](https://github.com/DTXMania)(@DTXMania)
 > * [Kairera0467/TJAP2fPC](https://github.com/kairera0467/TJAP2fPC)(@Kairera0467)
-> * [touhourenren/TJAPlayer3-Develop-Rewrite](https://github.com/touhourenren)
+> * [touhourenren/TJAPlayer3-Develop-Rewrite](
