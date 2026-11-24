@@ -115,8 +115,8 @@
 		"SETTINGS_SYSTEM_DISPLAYFOOTER_DESC": "Toggles the footer image displayed during gameplay.",
 		"SETTINGS_SYSTEM_DISPLAYPUCHI": "Draw PuchiChara",
 		"SETTINGS_SYSTEM_DISPLAYPUCHI_DESC": "Show PuchiChara Images.",
-		"SETTINGS_SYSTEM_SIMPLEMODE": "SimpleMode",
-		"SETTINGS_SYSTEM_SIMPLEMODE_DESC": "Simplifies drawing by hiding most visual flare and effects during gameplay.",
+		"SETTINGS_SYSTEM_SIMPLEMODE": "Reduced motion (simple mode)",
+		"SETTINGS_SYSTEM_SIMPLEMODE_DESC": "Reduces flashes, animations, and other visual effects during gameplay.",
 
 		"SETTINGS_SYSTEM_SKIN": "Theme",
 		"SETTINGS_SYSTEM_SKIN_DESC": "Choose the visual theme (skin) used by the game.",

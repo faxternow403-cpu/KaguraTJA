@@ -79,12 +79,12 @@ internal class OpenTaiko : Game {
 	}
 
 	public static CTja?[] TJAs
-		=> tja.Select(x => x).ToArray();
+		=> (CTja?[])tja.Clone();
 
 	public static CTja? GetTJA(int player)
-		=> tja.ElementAtOrDefault(player);
+		=> player >= 0 && player < tja.Length ? tja[player] : null;
 	public static void SetTJA(int player, CTja? value) {
-		if (!(player >= 0 && player <= tja.Length)) {
+		if (player < 0 || player >= tja.Length) {
 			return;
 		}
 		if ((tja[player] != null) && (app != null)) {

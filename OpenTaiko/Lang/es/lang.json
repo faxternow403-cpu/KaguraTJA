@@ -115,8 +115,8 @@
 		"SETTINGS_SYSTEM_DISPLAYFOOTER_DESC": "Alterna la imagen del pie de página mostrada durante el juego.",
 		"SETTINGS_SYSTEM_DISPLAYPUCHI": "Mostrar Puchichara",
 		"SETTINGS_SYSTEM_DISPLAYPUCHI_DESC": "Muestra imágenes del Puchichara.",
-		"SETTINGS_SYSTEM_SIMPLEMODE": "Modo Simple",
-		"SETTINGS_SYSTEM_SIMPLEMODE_DESC": "Simplifica el renderizado ocultando la mayoría de losdestellos y efectos visuales durante el juego.",
+		"SETTINGS_SYSTEM_SIMPLEMODE": "Reducir movimiento (modo simple)",
+		"SETTINGS_SYSTEM_SIMPLEMODE_DESC": "Reduce los destellos, las animaciones y otros efectos visuales durante las partidas.",
 
 		"SETTINGS_SYSTEM_SKIN": "Tema",
 		"SETTINGS_SYSTEM_SKIN_DESC": "Elige una skin desde la carpeta de sistema.",
